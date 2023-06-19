@@ -1,7 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.github\\ISSUE_TEMPLATE",
+    "\\samples",
+    "\\samples\\azurefunctions",
+    "\\samples\\blazor",
+    "\\samples\\microsoftgraph",
+    "\\samples\\powerautomate",
+    "\\samples\\powerbi"
   ],
-  "SelectedNode": "\\M:\\TestRepositories\\dev-samples",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }
