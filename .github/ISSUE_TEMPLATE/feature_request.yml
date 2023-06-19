@@ -1,0 +1,45 @@
+name: 💡 Feature Request or Suggestion
+description: Suggest an enhancement to make the project even better
+title: "[Feature] <title>"
+labels: [Enhancement, Needs Triage]
+body:
+- type: markdown
+  attributes:
+    value: |
+
+      Thank you for your input! Use the sections below to submit a feature request ONLY if it's related to the project repo.
+      
+      - For more than one feature request please submit them separately.
+      - Add any screenshots that could help understand your feature request (you can copy/paste images in the feature request box)
+
+- type: input
+  id: module
+  validations:
+    required: true
+  attributes:
+    label: Module
+    description: |
+        Which project module are you talking about
+        
+        Use the project and module name or URL. 
+
+- type: textarea
+  id: feature
+  attributes:
+    label: Feature Request
+    description: What would you like to see in the project?
+    placeholder: write feature details here
+  validations:
+    required: true
+
+
+- type: dropdown
+  id: part-of-team
+  attributes:
+    label: Are you willing to contribute?
+    description: Would you like to be part of the team that makes this enhancement?
+    options:
+      - "Yes"
+      - "No"
+  validations:
+    required: true

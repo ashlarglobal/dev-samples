@@ -1,0 +1,33 @@
+name: ❓ Query
+description: Ask any query about the project
+title: "[Query] <title>"
+labels: [Bug, Needs Triage]
+body:
+- type: markdown
+  attributes:
+    value: |
+
+      Thank you for your query! Use the sections below to submit a query ONLY if it is related to the project repo.
+     
+      - For more than one query please submit them separately.
+      - Add any screenshots that could help understand your query (you can copy and paste images in the query box)
+ 
+- type: input
+  id: module
+  validations:
+    required: true
+  attributes:
+    label: Module
+    description: |
+        Which project module are you talking about
+        
+        Use the project and module name or URL. 
+
+- type: textarea
+  id: query
+  attributes:
+    label: Query
+    description: What is your query?
+    placeholder: write details here
+  validations:
+    required: true

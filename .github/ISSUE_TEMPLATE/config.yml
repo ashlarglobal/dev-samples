@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: General development questions
+    url: https://ashlarglobal.com/contact-us.html
+    about: Issues and questions about development in general
+  - name: Trello Issues
+    url: https://ashlarglobal.com/process.html
+    about: Trello issues list
+  - name: Ashlar Blog
+    url: https://ashlarglobal.com/process.html
+    about: Blogs and articles about tech stack
